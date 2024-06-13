@@ -66,11 +66,13 @@
           {{ t('sys.login.qrSignInFormTitle') }}
         </Button>
       </ACol>
+      <!--
       <ACol :md="7" :xs="24">
         <Button block @click="setLoginState(LoginStateEnum.REGISTER)">
           {{ t('sys.login.registerButton') }}
         </Button>
       </ACol>
+      -->
     </ARow>
 
     <Divider class="enter-x">{{ t('sys.login.otherSignIn') }}</Divider>
@@ -99,7 +101,7 @@
   import { LoginStateEnum, useLoginState, useFormRules, useFormValid } from './useLogin';
   import { useDesign } from '/@/hooks/web/useDesign';
   import { getCodeInfo } from '/@/api/sys/user';
-  //import { onKeyStroke } from '@vueuse/core';
+  import { onKeyStroke } from '@vueuse/core';
 
   const ACol = Col;
   const ARow = Row;

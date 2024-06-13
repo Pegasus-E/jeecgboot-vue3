@@ -91,15 +91,15 @@
                     <a-button :loading="loginLoading" class="aui-link-login" type="primary" @click="loginHandleClick">
                       {{ t('sys.login.loginButton') }}</a-button>
                   </div>
-                  <div class="aui-flex">
-                    <a class="aui-linek-code aui-flex-box" @click="codeHandleClick">{{ t('sys.login.qrSignInFormTitle') }}</a>
-                  </div>
-                  <div class="aui-flex">
-                    <a class="aui-linek-code aui-flex-box" @click="registerHandleClick">{{ t('sys.login.registerButton') }}</a>
-                  </div>
+<!--                  <div class="aui-flex">-->
+<!--                    <a class="aui-linek-code aui-flex-box" @click="codeHandleClick">{{ t('sys.login.qrSignInFormTitle') }}</a>-->
+<!--                  </div>-->
+<!--                  <div class="aui-flex">-->
+<!--                    <a class="aui-linek-code aui-flex-box" @click="registerHandleClick">{{ t('sys.login.registerButton') }}</a>-->
+<!--                  </div>-->
                 </div>
               </div>
-              <a-form @keyup.enter.native="loginHandleClick">
+             <!-- <a-form @keyup.enter.native="loginHandleClick">
                 <div class="aui-flex aui-third-text">
                   <div class="aui-flex-box aui-third-border">
                     <span>{{ t('sys.login.otherSignIn') }}</span>
@@ -127,7 +127,7 @@
                     </div>
                   </div>
                 </div>
-              </a-form>
+              </a-form>-->
             </div>
           </div>
         </div>
@@ -438,7 +438,9 @@
     border: 1px solid #1573e9;
     top: 12px;
   }
-
+  .aui-formWell {
+    margin-top: 50px;
+  }
   .aui-get-code:hover {
     color: #1573e9;
   }
@@ -457,7 +459,7 @@
     padding: 10px 15px;
     font-size: 14px;
     border-radius: 8px;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 8px;
     flex: 1;
     color: #fff;
