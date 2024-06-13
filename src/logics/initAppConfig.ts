@@ -1,5 +1,6 @@
 /**
  * Application configuration
+ * 13chan
  */
 import type { ProjectConfig } from '/#/config';
 
