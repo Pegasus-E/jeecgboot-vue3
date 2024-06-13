@@ -1055,10 +1055,10 @@
   resolved "https://r2.cnpmjs.org/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jeecg/online@3.6.2-beta":
-  version "3.6.2-beta"
-  resolved "https://r.cnpmjs.org/@jeecg/online/-/online-3.6.2-beta.tgz#15421a66fc8d2d0597bab82b52ea82c1541c7a2a"
-  integrity sha512-HpUmWPaLthg8sHyBQNotEPhZnl8eJvzhXR21ADjQQMFUeJSQRVv28xaX+wwTkczJgrDNZ0lwsPW1oab6kYwnBA==
+"@jeecg/online@3.6.2-GA":
+  version "3.6.2-GA"
+  resolved "https://registry.yarnpkg.com/@jeecg/online/-/online-3.6.2-GA.tgz#19b37b7ba866a2c29def78ad6ec004b73f0b97ad"
+  integrity sha512-mFRGFtTICZmWHl5sW/18kyos28J9B5QjEBqCWe40AxoEYMnfYGSEzHXCc/wL9qcsBmgUixsHZbkrRU+eaWkRyw==
 
 "@jest/console@^29.7.0":
   version "29.7.0"
